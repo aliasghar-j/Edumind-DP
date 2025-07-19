@@ -67,7 +67,7 @@ function EduMindApp() {
                     }, observerOptions);
 
                     // Observe all cards for animation
-                    document.querySelectorAll('.step-card, .testimonial-card, .feature-card').forEach(card => {
+                    document.querySelectorAll('.step-card, .feature-card').forEach(card => {
                         observer.observe(card);
                     });
                 `}
